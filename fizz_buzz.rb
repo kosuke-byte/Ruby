@@ -8,8 +8,10 @@ def fizz_buzz(input)
   elsif input % 3 == 0
     puts "Fizz"
 
-  else input % 5 == 0
+  elsif input % 5 == 0
     puts "Buzz"
+
+  else puts "#{input}"
   end
 end
 
